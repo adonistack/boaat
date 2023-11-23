@@ -1,0 +1,23 @@
+header {
+  position: relative;
+  padding: 20px 0;
+  background: skyblue;
+}
+header .header-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+header .header-image {
+  width: 100%;
+  margin-top: -500px;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  width: 300px;
+  height: auto;
+  margin: -60px auto auto auto;
+}/*# sourceMappingURL=header.css.map */
