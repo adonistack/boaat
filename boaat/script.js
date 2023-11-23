@@ -1,4 +1,5 @@
-const locations = [
+
+const locations =  [
     {
       image: "access/location1.jpg",
       address: `"עולי הגרדום 22 ת"א"`

@@ -76,3 +76,19 @@ $background-color_7: #333;
 	margin-right: 12px;
 	padding-left: 20px;
 }
+
+// make it responsive for mobile (the picture will be on top of the text)
+@media (max-width: 768px) {
+	.about-content {
+		flex-direction: column;
+	}
+	.about-image {
+		flex: 0 0 100%;
+		margin-bottom: 20px;
+	}
+	.about-text {
+		flex: 0 0 100%;
+		margin-right: 0;
+		padding-left: 0;
+	}
+}

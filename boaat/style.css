@@ -184,6 +184,20 @@ header .logo img {
   padding-left: 20px;
 }
 
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+  .about-image {
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+  }
+  .about-text {
+    flex: 0 0 100%;
+    margin-right: 0;
+    padding-left: 0;
+  }
+}
 .why-choose-us {
   background-color: #f8f8f8;
   padding: 20px 0;
