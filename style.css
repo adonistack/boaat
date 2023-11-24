@@ -376,8 +376,10 @@ header .logo img {
   margin-bottom: 20px;
 }
 .contact img.cloud {
-  width: 50%;
-  overflow-x: hidden;
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 .contact p {
   font-size: 1.2em;
