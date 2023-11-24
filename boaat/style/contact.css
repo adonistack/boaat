@@ -1,0 +1,30 @@
+.contact {
+  text-align: center;
+  padding: 40px 20px;
+  margin: 20px;
+}
+.contact h2 {
+  margin-bottom: 20px;
+}
+.contact img.mycloud {
+  max-width: 400px;
+  overflow-x: hidden;
+}
+.contact p {
+  font-size: 1.2em;
+  margin-top: -80px;
+}
+.contact a {
+  color: #3a83d1;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.contact a:hover {
+  color: #ccefff;
+  text-decoration: underline;
+}
+.contact a:focus {
+  color: #ccefff;
+  text-decoration: underline;
+}/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "POALIM-REGULAR", sans-serif;
+  direction: rtl;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-family: "Gveret";
+  color: #0062A9;
+  font-size: 1.5em;
+}/*# sourceMappingURL=base.css.map */

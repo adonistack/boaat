@@ -1,0 +1,47 @@
+$color_1: white;
+$color_2: #3a83d1;
+$color_3: #333;
+$color_4: #555;
+$color_5: #fff;
+$color_6: whitesmoke;
+$color_7: #ccefff;
+$background-color_1: #f8f8f8;
+$background-color_2: #008DD2;
+$background-color_3: #007bff;
+$background-color_4: #bbb;
+$background-color_5: #717171;
+$background-color_6: rgb(102, 185, 196);
+$background-color_7: #333;
+
+.contact {
+	text-align: center;
+	padding: 40px 20px;
+	margin: 20px;
+	
+	h2 {
+		margin-bottom: 20px;
+	}
+	img.mycloud{
+		max-width: 400px;
+		overflow-x: hidden;
+	}
+	
+	p {
+		font-size: 1.2em;
+		margin-top: -80px;
+	}
+	a {
+		color: $color_2;
+		font-weight: bold;
+		text-decoration: none;
+		transition: color 0.3s ease;
+		&:hover {
+			color: $color_7;
+			text-decoration: underline;
+		}
+		&:focus {
+			color: $color_7;
+			text-decoration: underline;
+		}
+	}
+}
