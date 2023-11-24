@@ -378,6 +378,7 @@ header .logo img {
 .contact img.cloud {
   width: 100%;
   height: auto;
+  overflow-x: hidden;
 }
 .contact p {
   font-size: 1.2em;
