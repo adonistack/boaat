@@ -6,12 +6,9 @@
 .contact h2 {
   margin-bottom: 20px;
 }
-.contact .cloud .img {
-  max-width: 100%;
-  max-height: -moz-fit-content;
-  max-height: fit-content;
+.contact img.cloud {
+  width: 100%;
   height: auto;
-  overflow: hidden;
 }
 .contact p {
   font-size: 1.2em;
