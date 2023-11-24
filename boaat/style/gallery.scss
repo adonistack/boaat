@@ -1,0 +1,233 @@
+$color_1: white;
+$color_2: #3a83d1;
+$color_3: #333;
+$color_4: #555;
+$color_5: #fff;
+$color_6: whitesmoke;
+$color_7: #ccefff;
+$background-color_1: #f8f8f8;
+$background-color_2: #008DD2;
+$background-color_3: #007bff;
+$background-color_4: #bbb;
+$background-color_5: #717171;
+$background-color_6: rgb(102, 185, 196);
+$background-color_7: #333;
+
+
+.gallery,  .our-customers{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: $background-color_1;
+    margin: 20px 0;
+
+    h2 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+}
+.gallery{
+
+
+    .carousel {
+        overflow: hidden;
+    }
+
+    .card-container {
+        display: flex;
+        flex-wrap: nowrap;
+        scroll-snap-type: x mandatory;
+        gap: 10px;
+        overflow-x: auto;
+        justify-content: start;
+        width: 100%;
+
+        &::-webkit-scrollbar {
+            height: 5px;
+        }
+    }
+
+    .card {
+        display: flex;
+        position: relative; // Added for absolute positioning of children
+        margin: auto;
+        color: $color_6;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        flex: 0 0 auto;
+        scroll-snap-align: start;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        &.active {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+            border: 2px solid $color_2; // Highlight active card
+        }
+    
+        img {
+            flex-shrink: 0; // Prevents the image from shrinking
+            height: 180px; // Fixed height for images
+            width: 100%; // Ensures images fill their container
+            object-fit: cover; // Ensures images cover the area without stretching
+        }
+    
+        .tag {
+            position: absolute;
+            bottom: 40px;
+            background-color: $color_2;
+            opacity: 0.7;
+            color: $color_5;
+            font-size: 0.8em;
+            font-weight: 600;
+            margin: auto;
+            padding: 5px 10px;
+            width: 100%;
+            height: 30px;   
+
+            h3 {
+                margin: auto;
+                font-size: 1.1em;
+                word-wrap: break-word; // Ensures text breaks to prevent overflow
+                text-align: left;
+            }
+        }
+    
+     
+    }
+    
+    
+    .carousel-dots {
+        text-align: center;
+        margin-top: 20px;
+
+        .dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin: 0 5px;
+            background-color: $color_4;
+            border-radius: 50%;
+            cursor: pointer;
+
+            &.active {
+                background-color: $color_2;
+            }
+        }
+    }
+
+    @media (max-width: 600px) { // Small screens
+        .card { width: 100%;
+            img {
+                height: 280px;
+            }
+        }
+    }
+    @media (min-width: 601px) and (max-width: 1024px) { // Mid screens
+        .card { width: calc(33.333% - 10px);
+            img {
+                height: 220px;
+            }
+        }
+    }
+    @media (min-width: 1025px) { // Full screens
+        .card { width: calc(16.666% - 10px); }
+    }
+}
+
+ .our-customers {
+ 
+
+    .carousel {
+        overflow: hidden;
+    }
+
+    .card-container {
+        display: flex;
+        flex-wrap: nowrap;
+        scroll-snap-type: x mandatory;
+        gap: 10px;
+        overflow-x: auto;
+        justify-content: start;
+        width: 100%;
+        background: #F3F4F6;
+        padding: 10px 0;
+        &::-webkit-scrollbar {
+            height: 5px;
+        }
+    }
+
+    .card {
+        display: flex;
+        position: relative; // Added for absolute positioning of children
+        margin: auto;
+        color: $color_6;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        flex: 0 0 auto;
+        scroll-snap-align: start;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        &.active {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+            border: 2px solid $color_2; // Highlight active card
+        }
+    
+        img {
+            flex-shrink: 0; // Prevents the image from shrinking
+            height: 180px; // Fixed height for images
+            width: 100%; // Ensures images fill their container
+            object-fit: cover; // Ensures images cover the area without stretching
+        }
+    
+    
+    }
+    
+    
+    .carousel-dots {
+        text-align: center;
+        margin-top: 20px;
+
+        .dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin: 0 5px;
+            background-color: $color_4;
+            border-radius: 50%;
+            cursor: pointer;
+
+            &.active {
+                background-color: $color_2;
+            }
+        }
+    }
+
+    @media (max-width: 600px) { // Small screens
+        .card { width: 20%;
+            img {
+                height: 100px;
+            }
+        }
+    }
+    @media (min-width: 601px) and (max-width: 1024px) { // Mid screens
+        .card {width: 16%;
+            img {
+                height: 220px;
+            }
+        }
+    }
+    @media (min-width: 1025px) { // Full screens
+        .card { width: calc(20% - 10px); }
+    }
+}
+

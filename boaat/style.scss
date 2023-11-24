@@ -1,0 +1,28 @@
+
+@import 'style/base.scss';
+@import'style/header.scss';
+@import'style/gallery.scss';
+@import'style/about.scss';
+@import'style/why-choose-us.scss';
+@import'style/contact.scss';    
+@import'style/footer.scss';
+
+@font-face {
+    font-family: 'Gveret' ;
+    src: url('../access/GveretLevinAlefAlefAlef-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'POALIM-REGULAR' , sans-serif;
+    src: url('../access/POALIM-REGULAR.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'POALIM-BOLD' , sans-serif;
+    src: url('../access/POALIM-BOLD.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'POALIM-LIGHT' , sans-serif;
+    src: url('../access/Poalim-Light.ttf') format('truetype');
+}
