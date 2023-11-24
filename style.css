@@ -375,8 +375,8 @@ header .logo img {
 .contact h2 {
   margin-bottom: 20px;
 }
-.contact img.mycloud {
-  max-width: 400px;
+.contact img.cloud {
+  width: 50%;
   overflow-x: hidden;
 }
 .contact p {
