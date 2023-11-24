@@ -37,6 +37,7 @@
   margin-right: 200px;
 }
 .why-choose-us .container:nth-child(2) ol {
+  z-index: 2;
   list-style: none;
   padding: 0;
   margin-top: -40px;

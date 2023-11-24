@@ -13,7 +13,7 @@ body {
 h2 {
   font-family: "Gveret";
   color: #0062A9;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 header {
@@ -307,6 +307,7 @@ header .logo img {
   margin-right: 200px;
 }
 .why-choose-us .container:nth-child(2) ol {
+  z-index: 2;
   list-style: none;
   padding: 0;
   margin-top: -40px;
@@ -373,6 +374,10 @@ header .logo img {
 }
 .contact h2 {
   margin-bottom: 20px;
+}
+.contact .cloud .img {
+  width: 100%;
+  height: auto;
 }
 .contact p {
   font-size: 1.2em;

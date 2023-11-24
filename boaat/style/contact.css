@@ -6,6 +6,10 @@
 .contact h2 {
   margin-bottom: 20px;
 }
+.contact .cloud .img {
+  width: 100%;
+  height: auto;
+}
 .contact p {
   font-size: 1.2em;
   margin-top: -80px;
