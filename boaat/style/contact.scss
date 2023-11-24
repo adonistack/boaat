@@ -23,8 +23,10 @@ $background-color_7: #333;
 	}
 	.cloud {
 		.img {
-			width: 100%;
+			max-width: 100%;
+			max-height: fit-content;
 			height: auto;
+			overflow: hidden;
 		}
 	}
 	
