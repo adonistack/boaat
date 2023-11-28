@@ -72,3 +72,19 @@ document.addEventListener('DOMContentLoaded', () => {
     observer.observe(section);
   }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  loadFont('Yoav-Cursive', './access/Yoav-Cursive.ttf', 'truetype');
+  loadFont('POALIM-REGULAR', './access/POALIM-REGULAR.TTF', 'truetype');
+  loadFont('POALIM-BOLD', './access/POALIM-BOLD.TTF', 'truetype');
+  loadFont('POALIM-LIGHT', './access/Poalim-Light.ttf', 'truetype');
+});
+
+function loadFont(name, url, format) {
+  const newFont = new FontFace(name, `url(${url}) format('${format}')`);
+  newFont.load().then(function(loadedFont) {
+      document.fonts.add(loadedFont);
+  }).catch(function(error) {
+      console.error('Failed to load font:', error);
+  });
+}
