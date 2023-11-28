@@ -421,17 +421,17 @@ footer a:hover {
 
 @font-face {
   font-family: "Yoav-Cursive";
-  src: url("../access/Yoav-Cursive.TTF") format("truetype");
+  src: url("./access/Yoav-Cursive.ttf") format("truetype");
 }
 @font-face {
   font-family: "POALIM-REGULAR", sans-serif;
-  src: url("../access/POALIM-REGULAR.TTF") format("truetype");
+  src: url("./access/POALIM-REGULAR.TTF") format("truetype");
 }
 @font-face {
   font-family: "POALIM-BOLD", sans-serif;
-  src: url("../access/POALIM-BOLD.TTF") format("truetype");
+  src: url("./access/POALIM-BOLD.TTF") format("truetype");
 }
 @font-face {
   font-family: "POALIM-LIGHT", sans-serif;
-  src: url("../access/Poalim-Light.ttf") format("truetype");
+  src: url("./access/Poalim-Light.ttf") format("truetype");
 }/*# sourceMappingURL=style.css.map */
