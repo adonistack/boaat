@@ -11,7 +11,7 @@ body {
 }
 
 h2 {
-  font-family: "Gveret";
+  font-family: "Yoav-Cursive";
   color: #0062A9;
   font-size: 1.5em;
 }
@@ -420,8 +420,8 @@ footer a:hover {
 }
 
 @font-face {
-  font-family: "Gveret";
-  src: url("../access/GveretLevinAlefAlefAlef-Regular.TTF") format("truetype");
+  font-family: "Yoav-Cursive";
+  src: url("../access/Yoav-Cursive.TTF") format("truetype");
 }
 @font-face {
   font-family: "POALIM-REGULAR", sans-serif;
